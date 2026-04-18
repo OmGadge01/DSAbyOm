@@ -1,0 +1,17 @@
+class Solution {
+    public int countPalindromicSubsequence(String s) {
+    int size =0;
+    for(char ch = 'a';ch <= 'z'; ch++){
+       int firstOcc = s.indexOf(ch);
+       int lastOcc = s.lastIndexOf(ch);
+       if(firstOcc != -1 && lastOcc != -1 && lastOcc > firstOcc){
+        HashSet<Character> set = new HashSet<>();
+        for(int i = firstOcc+1;i < lastOcc; i++){
+            set.add(s.charAt(i));
+        }
+        size = size + set.size();
+       }
+    }
+    return size;
+    }
+}
