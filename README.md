@@ -1,2 +1,5 @@
-Day 1 - Problem no 38 - Count and Say
-Youtube video link - https://youtu.be/hzSYxSz3NOk
+Youtube video links 
+Day 1 - https://youtu.be/hzSYxSz3NOk
+Day 2 - https://youtu.be/mcbASeIKL1E
+Day 3 - https://youtu.be/KGlWpW2YbXY
+Day 4 - https://youtu.be/vvN8PKBnbE8
