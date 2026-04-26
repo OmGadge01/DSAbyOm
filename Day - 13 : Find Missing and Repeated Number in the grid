@@ -1,0 +1,25 @@
+class Solution {
+    public int[] findMissingAndRepeatedValues(int[][] grid) {
+        int n = grid.length;
+        int actSum = 0;
+        int mySum = 0;
+        int actSqSum =0;
+        for(int i =1;i<=n*n;i++){
+            actSum += i;
+            actSqSum += i * i;
+        }
+        int sqSum = 0;
+        for(int i =0;i<n;i++){
+            for(int j=0;j<n;j++){
+                mySum += grid[i][j];
+                sqSum += grid[i][j] * grid[i][j];
+            }
+        }
+
+        int diff = (actSum - mySum);
+        int sqDiff = (actSqSum - sqSum);
+        int sumOfAB = sqDiff / diff;
+        int sub = (sumOfAB - diff)/2;
+        return new int[]{sub ,sumOfAB -sub};
+    }
+}
