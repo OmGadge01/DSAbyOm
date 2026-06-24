@@ -8,4 +8,4 @@
 - **Day 7**: https://youtu.be/Gv6X-7vpp3o
 - **Day 8**: https://youtu.be/_EyBZDd-W1c
 - **Day 9**: https://youtu.be/_yvBbvgv-W1c
-- **Day 10**:
+- **Day 10**: https://youtu.be/UfG480q1Bzk
